@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+   <style>
+      p{ 
+         font-size: medium; color: rgb(66, 16, 160);
+      }
+      body{
+        background-color: lightpink;
+      }
+   </style>
+   
+</head>
+
+<body>
+    <form method="post" action="https:// www.practice.com">
+        <fieldset>
+            <legend><b>persnol Information</b></legend>
+            <p>First name; <input type="text" size="10" maxlength="15"  required>Last name : <input type="text" size="10"
+                    maxlength="15"> </p>
+            <p> Email :<input type="email" size="10" maxlength="15"> Job Role : <select name="roles"></p>
+            <option value="rouls"> select job rouls </option>
+            </select>
+            <p> Address : <input type="address" value="address" size="10" maxlength="15"> City : <input type="text"
+                    value="Enter city name" size="10" maxlength="15"> </p>
+            <p> Pine code :<input type="password" size="10" maxlength="15"> password ;<input type="password" size="10"
+                    maxlength="15"></p>
+                   
+                    <label><p>Gender : <input type="radio" name="Gender" value="male">male: <input  type="radio" name="Gender"
+                    value="female">female</label> <BR> <BR> Date:<input type="date" name="Date"></p>
+            Education: <input type="checkbox" name="Education" value="metric"> Metric <input type="checkbox"
+                name="Education" value="Inter">Inter <input type="checkbox" name="Education" value="Gradution">Gradution
+
+            <p>Country:<select name="Country" multiple="multiple">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India"> India</option>
+                    <option value="uk">uk</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Mlashia">Mlashia</option>
+                </select>
+            </p>
+        </fieldset>
+        <p>Upload picture:<input type="file" name="picture">
+        </p>
+        <input type="submit" value="Upload">
+
+        <input type="submit">
+
+        <p>comment:</p>
+        <textarea name="comment" colum="13" rows="4">Enter your comments...</textarea>
+
+
+    </form>
+    
+</body>
+
+</html>
